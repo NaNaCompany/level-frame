@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {initialAngle,actualAngle,summarize} from '../../docs/zh/engine.js';
+test('离去角是两个方向 3~12度数范围',()=>{assert.equal(initialAngle(()=>0),-3);assert.ok(initialAngle(()=>.999)>11);});
+test('通过离去角与修正值之和计算实际水平误差',()=>{assert.equal(actualAngle(6,-6),0);assert.equal(actualAngle(-6,5),-1);});
+test('三个版本平均值和结果下限',()=>{assert.equal(summarize([.1,.2,.3]).error,(.1+.2+.3)/3);assert.equal(summarize([20,20,20]).accuracy,0);assert.throws(()=>summarize([1]));});

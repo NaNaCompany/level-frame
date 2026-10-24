@@ -1,0 +1,70 @@
+{
+  "slug": "level-frame",
+  "url": "https://nanalab.kr/level-frame/",
+  "titles": {
+    "ko": "기울어진 액자, 얼마나 정확하게 고칠 수 있을까?",
+    "en": "How accurately can you straighten this frame?",
+    "zh": "你能把倾斜的画框摆得多正？",
+    "es": "¿Con cuánta precisión puedes enderezar este cuadro?"
+  },
+  "descriptions": {
+    "ko": "혼자 즐기고 나만의 결과를 공유하는 작은 게임.",
+    "en": "A small solo game. Play, discover your result, and share.",
+    "zh": "独自挑战，看看自己的成绩，再分享给朋友。",
+    "es": "Un juego para ti. Descubre tu resultado y compártelo."
+  },
+  "color": "#775c3d",
+  "cardLines": {
+    "ko": [
+      "반듯하다고 느낀 순간.",
+      "정말 수평일까?"
+    ],
+    "en": [
+      "It looks straight.",
+      "But is it really level?"
+    ],
+    "zh": [
+      "看起来已经摆正。",
+      "真的水平了吗？"
+    ],
+    "es": [
+      "Parece estar recto.",
+      "¿De verdad lo está?"
+    ]
+  },
+  "brands": {
+    "ko": "기울어진 액자 수리",
+    "en": "The Quiet Balance",
+    "zh": "扶正倾斜的画框",
+    "es": "Endereza el cuadro"
+  },
+  "hero": {
+    "en": {
+      "first": "This frame is crooked.",
+      "last": "How straight can you make it?",
+      "intro": [
+        "Think that looks level?",
+        "Turn the frame and stop when you are sure.",
+        "Three frames reveal your average angle error."
+      ]
+    },
+    "zh": {
+      "first": "画框歪了，",
+      "last": "你能把它摆得多正？",
+      "intro": [
+        "你觉得这样就水平了吗？",
+        "转动画框，在最有把握时确认。",
+        "挑战三幅画框，看看平均角度误差。"
+      ]
+    },
+    "es": {
+      "first": "El cuadro está torcido.",
+      "last": "¿Puedes dejarlo bien recto?",
+      "intro": [
+        "¿Seguro que así está nivelado?",
+        "Gíralo y confirma cuando lo tengas claro.",
+        "Tres cuadros revelan tu error angular medio."
+      ]
+    }
+  }
+}
